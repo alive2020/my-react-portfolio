@@ -12,13 +12,14 @@ import {
     NavBtnLink
 } from './NavbarElements'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
+
     return (
         <>
         <Nav>
         <NavbarContainer>
             <NavLogo to="/">Ice Calee</NavLogo>
-            <MobileIcon>
+            <MobileIcon onClick={toggle}>
                 <FaBars />
             </MobileIcon>
             <NavMenu>
@@ -29,10 +30,7 @@ const Navbar = () => {
                     <NavLinks to="projects">Projects</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="practice">Practice Pj</NavLinks>
-                </NavItem>
-                <NavItem>
-                    <NavLinks to="resume">Resume</NavLinks>
+                    <NavLinks to="practice">Practice pj</NavLinks>
                 </NavItem>
             </NavMenu>
             <NavBtn>
