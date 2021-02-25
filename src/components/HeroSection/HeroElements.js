@@ -61,7 +61,7 @@ export const HeroH1 = styled.h1`
 export const HeroH3 = styled.h3`
     padding-top: 2rem;
     color: #fff;
-    font-size: 26px;
+    font-size: 30px;
     text-align: center;
 
     @media screen and (max-width: 768px){
@@ -76,12 +76,12 @@ export const HeroH3 = styled.h3`
 export const HeroP = styled.p`
     margin-top: 24px;
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     max-width: 600px;
 
     @media screen and (max-width: 768px){
-        font-size: 24px;
+        font-size: 16px;
     }
 
     @media screen and(max-width: 480px){
